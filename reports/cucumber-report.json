@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 130366584
+              "duration": 149773735
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4964489504
+              "duration": 5274038614
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 6,
             "name": "user enters valid search term in the basic search input box",
             "match": {
-              "location": "src/steps/playwright.steps.ts:14"
+              "location": "src/steps/playwright.steps.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 64764780
+              "duration": 46093832
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 7,
             "name": "the search button is clicked",
             "match": {
-              "location": "src/steps/playwright.steps.ts:21"
+              "location": "src/steps/playwright.steps.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 2877625219
+              "duration": 3393351663
             },
             "embeddings": [
               {
@@ -68,11 +68,11 @@
             "line": 8,
             "name": "user is navigated to the Browse All page",
             "match": {
-              "location": "src/steps/playwright.steps.ts:27"
+              "location": "src/steps/playwright.steps.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 21441582
+              "duration": 96923917
             }
           },
           {
@@ -81,11 +81,11 @@
             "line": 9,
             "name": "the first page of search results is displayed",
             "match": {
-              "location": "src/steps/playwright.steps.ts:32"
+              "location": "src/steps/playwright.steps.ts:31"
             },
             "result": {
               "status": "passed",
-              "duration": 2944628477
+              "duration": 2953660938
             }
           },
           {
@@ -94,11 +94,11 @@
             "line": 10,
             "name": "the assets listed meet the search criteria",
             "match": {
-              "location": "src/steps/playwright.steps.ts:38"
+              "location": "src/steps/playwright.steps.ts:37"
             },
             "result": {
               "status": "passed",
-              "duration": 50985644
+              "duration": 50222530
             }
           },
           {
@@ -106,7 +106,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 12868335
+              "duration": 13394916
             },
             "embeddings": [
               {

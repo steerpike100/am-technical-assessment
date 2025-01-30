@@ -9,10 +9,12 @@ import {
   webkit,
   WebKitBrowser,
   ConsoleMessage,
-  request,
   Browser
 } from '@playwright/test';
 import { ensureDir } from 'fs-extra';
+import { HomePage } from '../../page-objects/HomePage';
+import { SearchResultsPage } from '../../page-objects/SearchResultsPage';
+
 
 let browser: ChromiumBrowser | FirefoxBrowser | WebKitBrowser | Browser;
 const tracesDir = 'traces';
@@ -69,6 +71,8 @@ Before(async function (this: ICustomWorld, { pickle }) {
     }
   });
   this.feature = pickle;
+  this.homePage = new HomePage(this.page);
+  this.searchResultsPage = new SearchResultsPage(this.page);
 });
 
 After(async function (this: ICustomWorld, { result }) {
