@@ -1,0 +1,130 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "basic-search;basic-search",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Basic Search",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 130366584
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on any page of the Quartex Published Site",
+            "match": {
+              "location": "src/steps/playwright.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4964489504
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user enters valid search term in the basic search input box",
+            "match": {
+              "location": "src/steps/playwright.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64764780
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the search button is clicked",
+            "match": {
+              "location": "src/steps/playwright.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2877625219
+            },
+            "embeddings": [
+              {
+                "data": "TW9kdWxl",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user is navigated to the Browse All page",
+            "match": {
+              "location": "src/steps/playwright.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21441582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the first page of search results is displayed",
+            "match": {
+              "location": "src/steps/playwright.steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2944628477
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the assets listed meet the search criteria",
+            "match": {
+              "location": "src/steps/playwright.steps.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50985644
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12868335
+            },
+            "embeddings": [
+              {
+                "data": "U3RhdHVzOiBQQVNTRUQuIER1cmF0aW9uOjBz",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "basic-search",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Basic Search",
+    "tags": [],
+    "uri": "features/basic-search.feature"
+  }
+]
